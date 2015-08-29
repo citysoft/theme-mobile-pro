@@ -1,0 +1,410 @@
+/*  main.css style sheet for CitySoft Professional theme */
+/*  ********************************************* RESET *********************************************** */
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+body {
+    color: #444444;
+    font-family: Verdana, Myriad, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: url("/_data/n_0001/images/master_bg.png") repeat;
+}
+/* ul, ol {
+	list-style-position: inside;
+} */
+a {
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+.metaBannerContain {
+	height:45px;
+	background-color:#06293e;
+	width:100%;
+}
+.metaBannerContent {
+	font: bold 12px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:960px;
+	margin:auto;
+	text-align:right;
+	padding-top:15px
+}
+.metaBannerContent a:link, .metaBannerContent a:visited {
+	color:#FFF;
+}
+.metaBannerContent a:hover, .metaBannerContent a:active {
+	color:#FFF;
+	text-decoration:underline;
+}
+.hm_imageSlider_txt {
+	font: 12px/normal Verdana, Myriad, Arial, Helvetica, sans-serif;
+	color:#0b486b;
+	line-height: 17px;
+}
+.hm_imageSlider_txt a:link, .hm_imageSlider_txt a:visited {
+	font-weight:bold;
+	color:#428ab7;
+}
+.hm_imageSlider_txt a:hover, .hm_imageSlider_txt a:active {
+	font-weight:bold;
+	color:#428ab7;
+	text-decoration:underline;
+}
+.headerContain {
+	width:960px;
+	height:135px;
+	margin:auto;
+}
+
+.logoContain {
+	width:500px;
+	float:left;
+	padding-top: 20px;
+}
+
+.searchContain {
+	width:260px;
+	float:right;
+}
+
+.searchContain form input, #emailsubscription form input, #loginwidget input {
+	background: rgba(255,255,255,0.7);
+	color:#000;
+	padding: 1px 5px;
+}
+
+#searchwidget { 
+	text-align: right; 
+	padding-top: 20px;
+}
+
+#emailsubscription { text-align: right; }
+
+#emailsubscription { 
+	float:right;
+	top: 67px;
+	right: 10px;
+	width: 420px; 
+}
+
+p.emailsubscriptionhead, p.emailsubscriptionfoot { display: none; }
+
+.mainNavBackg {
+	background:url("/_data/n_0001/images/main_nav_bg.png") repeat-x;
+	height:41px;
+	width:960px;
+	margin:auto;
+}
+.hmContentContainer {
+	background-color:#FFF;
+	width:960px;
+	margin:auto;
+	padding: 0 0 0 0;
+}
+.imageSlideContainer {
+	margin: 18px 0 0 25px;
+	width:935px;
+}
+.highlightboxContainer {
+	width:934px;
+	padding: 0 0 26px 0;
+	margin: 0 0 0 0;
+}
+.hm_highlightbox {
+	font: 12px/normal Verdana, Myriad, Arial, Helvetica, sans-serif;
+	color:#000;
+	line-height: 19px;
+	width:287px;
+	margin: 0 24px 0 0;
+	float:left;
+}
+.hm_highlightbox a:link, .hm_highlightbox a:visited {
+	color:#428ab7;
+}
+.hm_highlightbox a:hover, .hm_highlightbox a:active {
+	color:#428ab7;
+	text-decoration:underline;
+}
+.footerContainer {
+	background-color:#22485f;
+	width:100%;
+}
+.footer_HighlightboxContainer {
+	height:160px;
+	width:960px;
+	background-color:transparent;
+	margin:auto;
+	text-align:left;
+	padding: 15px 0 0 0;
+}
+.footer_SocialContainer {
+	height:100px;
+	width:960px;
+	margin:auto;
+	text-align:left;
+}
+.footer_highlightbox {
+	font: 12px/normal Verdana, Myriad, Arial, Helvetica, sans-serif;
+	color:#92bdd6;
+	line-height: 19px;
+	width:224px;
+	margin: 0px 15px 0px 0px;
+	float:left;
+}
+.footer_highlightbox a:link, .footer_highlightbox a:visited {
+	color:#FFF;
+}
+.footer_highlightbox a:hover, .footer_highlightbox a:active {
+	color:#FFF;
+	text-decoration:underline;
+}
+.quotesContainer {
+	width:960px;
+	background-color:#FFF;
+	margin:auto;
+	text-align:left;
+}
+.copyright_content {
+	font: 11px/normal Verdana, Myriad, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:960px;
+	margin:auto;
+	text-align:left;
+}
+.copyrightContainer {
+	height:30px;
+	padding-top: 15px;
+	background-color:#06293e;
+	width:100%;
+}
+.quoteImg {
+	width:150px;
+	float:left;
+}
+.clientQuotes {
+	width: 810px;
+	float:right;
+	font: 14px/normal Verdana, Myriad, Arial, Helvetica, sans-serif;
+	color:#7b7b7b;
+	font-style:italic;
+}
+/*  ********************************************* SEARCH *********************************************** 	 
+.cst_searchBox {
+float:right; 
+width:253px; 
+height:40px; 
+margin-top:4px; 
+border-left: 0px solid #bdbdbd; 
+border-top: 0px solid #bdbdbd; 
+border-right: 0px solid #bdbdbd;
+padding: 0px 0px 0px 0px;
+}
+
+
+#search_box {
+	border:0px solid #d28703;
+	padding:0px;
+	width:200px;
+	margin: 0px 0 0px 0px;
+	
+}
+#search_box .search_wrapper {
+	background:#FFF;
+	border:1px solid #d28703;
+	height:40px;
+	padding-right:0px;
+	margin-top
+	position:relative;
+	width:225px;
+}
+#search_box input, #search_box input:focus {
+	border:none;
+	color:#333;
+	outline:none;
+	font: 15px Helvetica, Arial, sans-serif;
+	margin:9px 0px 0px 10px;
+	width:163px;
+	height:30px;
+	border:1px solid #bdbdbd;
+	padding-left:5px;
+}
+#search_box button {
+	cursor:pointer;
+	border:0px solid #000;
+	background-color:transparent;
+	height:45px;
+	position:absolute;
+	right:-7px;
+	top:2px;
+	width:45px;
+}
+*/
+
+/* ********************************************************************************************************* */
+/* ***************************************** BEGIN SITE STYLES ********************************************* */
+/* ********************************************************************************************************* */
+
+
+.hmSliderBoxTitle {
+	font: 22px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#06293e;
+	margin-bottom:6px;
+}
+.hmHighlightBoxTitle {
+	font: 19px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#06293e;
+	margin-bottom:6px;
+}
+.quotesBoxTitle {
+	font: 19px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#7b7b7b;
+	margin: 0 0 10px 26px;
+}
+.taglineTitle {
+	font: 19px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#06293e;
+	font-style:italic;
+	margin: 0 0 0 0;
+}
+.metaHighlightBoxTitle {
+	font: 16px/normal Myriad, Arial, Helvetica, sans-serif;
+	color:#FFF;
+	margin: 15px 0 10px 0;
+}
+#mainNavBackg {
+	background:url("/_data/n_0001/images/main_nav_bg.png") repeat-x;
+	height:41px;
+	width:960px;
+	margin:auto;
+	z-index: 9999;
+	text-align:left;
+}
+/*---- CROSS BROWSER DROPDOWN MENU ----*/
+
+ul#nav {
+	margin: 0 0 0 0;
+	
+}
+ul.drop a {
+	display:block;
+	color: #142c3b;
+	font-family: Verdana;
+	font-size: 14px;
+	text-decoration: none;
+    padding:5px 0 0 0;
+}
+ul.drop, ul.drop li, ul.drop ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	border-right: 1px solid #b7ccd9;
+	background: transparent;
+	color: #142c3b;
+	height:31px;
+}
+ul.drop {
+position: relative;
+	z-index: 597;
+	float: left;
+}
+ul.drop li {
+	float: left;
+	line-height: 1.3em;
+	vertical-align: middle;
+	zoom: 1;
+	padding: 5px 10px;
+}
+
+
+
+ul.drop li.hover, ul.drop li:hover {
+	position: relative;
+	z-index: 599;
+	cursor: default;
+	background: #96bcd3;
+}
+
+
+
+ul.drop ul {
+		visibility: hidden;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 598;
+	width: 250px;
+	/*background: #555;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;*/
+	height:40px;
+}
+ul.drop ul li {
+	
+	float: none;
+	/*background: #555;*/
+	border-right: 0px solid #fff;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(183, 204, 217);
+	/* RGBa with 0.6 opacity */
+	background: rgba(183, 204, 217, 0.9);
+	/* For IE 5.5 - 7
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#75000000, endColorstr=#99000000);*/
+	/* For IE 8
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#75000000)";*/
+	
+	
+}
+ul.drop ul ul {
+	top: 0px;
+	left: 100%;
+	border-right: 0px solid #fff;
+}
+ul.drop li:hover > ul {
+	visibility: visible
+}
+/*
+#emailsubscription1 {
+	float:right;
+	width: 159px;
+	padding: 7px;
+	border: 1px solid #4C655C;
+}
+
+p.emailsubscriptionhead {
+	font-weight: bold;
+	font-size: 1em;
+	padding: 0;
+	margin: 0px 0px 4px 0px;
+}
+
+.textfield {
+  border: 1px solid #4C655C;
+  height: 20px;
+  margin: 3px 0px;
+  padding: 3px 5px;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #999;
+}
+
+#emailsubscription1 p.emailsubscriptionfoot {
+	font-style: italic; 
+	color: #4C655C; 
+	margin: 1px 0px 0px 0px;
+	line-height: 15px;
+}
+*/
+

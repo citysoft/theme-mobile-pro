@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#top-row {
+	background: #337ab7;
+	height: 10px;
+	margin: 0px;
+}
+
+ /* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	background: url("../images/master_bg.png") -10% -16px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 50px;
+	background-color: #337ab7;
+	padding: 15px 20px 0 20px;
+	color:#fff;
+}
+
+.footer a {
+	color:#fff;
+} 
